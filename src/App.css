@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+  margin: 0;
+}
+
+.container-global {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+:root {
+  --clr-primary: #f46f4f;
+  --clr-secondary: #1d3463;
+
+  --font-poppins: "Poppins", sans-serif;
+}
